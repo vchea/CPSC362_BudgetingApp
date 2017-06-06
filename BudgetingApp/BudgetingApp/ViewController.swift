@@ -6,6 +6,8 @@
 //  Copyright © 2017 CPSC362_FinanciallyResponsible. All rights reserved.
 //
 
+// This is a test comment from Charles B.
+
 import UIKit
 
 class ViewController: UIViewController {
