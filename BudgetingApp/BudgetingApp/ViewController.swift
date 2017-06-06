@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
     @IBAction func signuppressed(_ sender: Any) {
         signupbutton.isHidden = true
-        time!.isHidden = false
+        time.isHidden = false
         
 
     }
