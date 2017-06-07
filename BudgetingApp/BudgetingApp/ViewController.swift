@@ -43,7 +43,6 @@ class ViewController: UIViewController {
         signupbutton.isHidden = true
         time.isHidden = false
         
-
     }
 }
 
