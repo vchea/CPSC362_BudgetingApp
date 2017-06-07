@@ -78,17 +78,6 @@
                                 <color key="textColor" red="0.53790165142008328" green="1" blue="0.037474611182425566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.54675928223533599" green="1" blue="0.048459055735188272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMk-oB-xX3">
-                                <rect key="frame" x="114" y="266" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.49318716209136171" green="1" blue="0.035238278583693106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Sign up here!">
-                                    <color key="titleColor" red="0.48993516076799226" green="1" blue="0.026539217723269171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="signuppressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jJe-7T-EdO"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -98,7 +87,6 @@
                         <outlet property="financialbuddylabel" destination="jzf-Xc-30a" id="hLi-Qp-nRg"/>
                         <outlet property="passwordlabel" destination="7mD-a5-bSs" id="vbn-fm-aB8"/>
                         <outlet property="passwordtextfield" destination="7Bb-fE-TMo" id="gX9-B4-Rh1"/>
-                        <outlet property="signupBTN" destination="FMk-oB-xX3" id="SQY-rY-3P8"/>
                         <outlet property="time" destination="d3r-Ak-RGb" id="htD-xq-BDo"/>
                         <segue destination="Wvx-qD-osC" kind="push" id="bOd-Du-IbG"/>
                     </connections>
