@@ -13,9 +13,7 @@ class ViewController: UIViewController {
     
     
    
-    @IBOutlet weak var signupBTN: UIButton!
-   
-    @IBOutlet weak var signupbutton: UIButton!
+
     @IBOutlet weak var time: UIImageView!
     @IBOutlet weak var passwordtextfield: UITextField!
     @IBOutlet weak var passwordlabel: UILabel!
@@ -39,10 +37,5 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func signuppressed(_ sender: Any) {
-        signupbutton.isHidden = true
-        time.isHidden = false
-        
-    }
-}
+   }
 
